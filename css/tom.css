@@ -8,3 +8,16 @@ footer {
 	bottom: 0px;
 	width: 100%
 }
+
+.icon {
+	width: 14%;
+	height:auto;
+}
+ 
+ 
+@media (max-width: 768px) {
+	.icon{
+		width: 40%;		
+	}
+	
+}

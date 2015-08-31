@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Thomas Bochynek - Homepage</title>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/lighter.css" rel="stylesheet">
+    <link href="css/tom.css" rel="stylesheet">
+</head>
+
+<body>
+    <img height="250" id="headerImage" src="img/cogwheel.jpg" width="250">
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-target=
+                ".navbar-ex1-collapse" data-toggle="collapse" type=
+                "button"><span class="icon-bar"></span> <span class=
+                "icon-bar"></span> <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="index.html">Thomas Bochynek</a>
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="research.html">Research</a>
+                    </li>
+		    
+		    <li>
+                        <a href="https://scholar.google.com.au/citations?user=zWxV6LMAAAAJ&hl=en">Publications</a>
+                    </li>
+		    
+                    <li>
+                        <a href="CV.html">CV</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    <br>
+    <br>
+
+    <div class="container">
+        <!-- content container -->
+        <br>
+
+        <div class="col-md-12 text-left">
+            Thomas Bochynek, Dipl.-Biol.<br>
+            Caulfield School of Information Technology<br>
+            Monash University, Caulfield Campus<br>
+            Building H, Level 6, NICTA ORG Laboratory<br>
+            878 Dandenong Road<br>
+            Caulfield East, Victoria 3145, Australia<br>
+            <br>
+            Tel: +61 3 990 344259<br>
+            Email:<a href=
+            "mailto:Thomas.Bochynek@Monash.edu">Thomas.Bochynek@Monash.edu</a>
+        </div><!-- /.col-md-10 -->
+    </div><!-- /.container -->
+
+    <div class="container">
+        <div class=
+        "col-md-4 col-md-offset-8 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
+        <a class="twitter-follow-button" data-show-count="false" href=
+        "https://twitter.com/tombochynek">Follow @tombochynek</a> <script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script><br>
+            <a href=
+            "http://au.linkedin.com/pub/thomas-bochynek/68/681/ab4"><img alt=
+            "View Thomas Bochynek's profile on LinkedIn" border="0" height="15"
+            src=
+            "https://static.licdn.com/scds/common/u/img/webpromo/btn_profile_bluetxt_80x15.png"
+            width="80"></a><br>
+            <br>
+            <br>
+            <script src="js/jquery.js"></script> <script src="js/bootstrap.min.js"></script> <script>
+$(".nav-link").click(function(e) {
+            e.preventDefault();
+            var link = $(this);
+            var href = link.attr("href");
+            $("html,body").animate({scrollTop: $(href).offset().top - 80}, 500);
+            link.closest(".navbar").find(".navbar-toggle:not(.collapsed)").click();
+            });
+            </script>
+        </div>
+    </div>
+</body>
+</html>
