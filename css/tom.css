@@ -1,23 +1,117 @@
 #headerImage {
 }
-
-.twitter-share-button { vertical-align:top }
-
+.twitter-share-button {
+    vertical-align: top;
+}
 footer {
-	position: fixed;
-	bottom: 0px;
-	width: 100%
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.icon {
+    height: auto;
+    width: 14%;
+}
+@media (max-width: 768px) {
+	
+	.icon {
+	    width: 40%;
+	    
+	}
+	
 }
 
-.icon {
-	width: 14%;
-	height:auto;
+.center {
+	
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	float: none;
+	
 }
- 
- 
-@media (max-width: 768px) {
-	.icon{
-		width: 40%;		
-	}
+
+.top-spacing {
+	
+	margin-top: 20px;
+	
+}
+
+.bottom-spacing {
+	
+	margin-bottom: 20px;
+	
+}
+
+.tom-profile img {
+	
+	margin: 0 auto;
+	
+	
+}
+
+.follow-buttons {
+	
+
+	float: right;
+	
+}
+
+.follow-button {
+	
+	margin-left: 20px;
+	float: left;
+	
+}
+
+.inline-image {
+	
+	width: 45%;
+	height: auto;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	display: block;
+	
+}
+
+.navbar {
+	
+	padding: 0 !important;
+	
+}
+
+.navbar a {
+	
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	
+}
+
+a:hover {
+	
+	color: #428bca !important;
+	text-decoration: underline;
+	
+}
+
+.active a {
+	
+	background-color: #428bca !important;
+	color: #fff !important;
+	
+}
+
+ul {
+	
+	padding-left: 10px;
+	
+}
+
+.cv {
+	
+	clear: both;
+	floaT: none;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #428bca;
 	
 }
