@@ -64,10 +64,9 @@ footer {
 }
 
 .inline-image {
-/*	width: 35%;*/
 	
-	width: auto;
-	height: 300px;
+	width: 35%;
+	height: auto;
 	float: left;
 	margin-right: 25px;
 	margin-bottom: 10px;
